@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<!-- 
 {% for topicarea in site.topicareas %}
   <h1> > Topic Area: {{topicarea.title}}</h1>
   {{topicarea.content}}
@@ -25,3 +25,11 @@ layout: default
   {% endfor %}
 {% endfor %}
 
+ -->
+
+
+{% for topicarea in site.topicareas %}
+  <h1>{{topicarea.title}}</h1>
+  {{topicarea.content}}
+  {% include item.html item=topicarea %}
+{% endfor %}
