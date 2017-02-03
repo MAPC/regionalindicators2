@@ -33,4 +33,4 @@ permalink: pretty
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
+- jekyll-feed
