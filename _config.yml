@@ -30,3 +30,7 @@ defaults:
   values:
     layout: page
 permalink: pretty
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
